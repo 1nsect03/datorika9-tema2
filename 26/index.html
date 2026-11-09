@@ -13,8 +13,8 @@ img, audio { max-width: 100%; }
 
 /* NOFORMĒ ŠEIT: pielieto 2.1. un 2.2. nodarbībā apgūto CSS */
 body {
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #ffe600;
+  color: #ff1100;
 }
 
 h1 {
@@ -22,37 +22,42 @@ h1 {
 }
 
 .noteikumi {
-  background-color: #f1f5f9;
-  color: #222222;
-  padding: 12px;
+  background-color: #ffc400;
+  color: #ff0000;
+  padding: 16px;
+  border-radius: 12px;
 }
 
 .laukums {
   width: 360px;
-  padding: 12px;
-  border: 2px solid #94a3b8;
-  background-color: #f8fafc;
+  padding: 20px;
+  border: 2px solid #ff2fa1;
+  background-color: #020202;
   box-sizing: border-box;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 100%;
 }
 
 button {
-  background-color: #245b91;
-  color: #ffffff;
+  background-color: #fcc309;
+  color: #fd0707;
   border: 0;
+  border-radius: 8px;
 }
 </style>
 </head>
 <body>
-<h1>Spēles nosaukums</h1>
-<p>Īss spēles mērķa apraksts spēlētājam.</p>
+<h1>BREAKPOINT</h1>
+<p>BREAKPOINT is a game about breaking things and keeping the score high</p>
 <section class="noteikumi">
-  <h2>Noteikumi</h2>
-  <p>Apraksti, kā spēlētājs šajā lapā iegūst punktus un noklausās skaņu.</p>
+  <h2>Break stuff</h2>
+  <p>break things to score points</p>
 </section>
 <div class="laukums">
   <h2>Spēles laukums</h2>
-  <img src="atteli/varonis.svg" alt="Spēles varonis" width="128">
-  <p>Skaņas efekta nozīme spēlē:</p>
+  <img src="atteli/pumking from BREAKPOINT.png" alt="Pumking" width="128">
+  <p>smash:</p>
   <audio controls src="skanas/klikskis.wav"></audio>
   <p id="punkti">Punkti: 0</p>
   <button onclick="savakt()">Savākt punktu</button>
